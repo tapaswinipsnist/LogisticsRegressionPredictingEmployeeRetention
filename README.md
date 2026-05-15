@@ -5,6 +5,7 @@ This project focuses on developing a **Logistic Regression model** to analyze an
 The assignment provides hands‑on experience with data preprocessing, feature engineering, model building, and evaluation.  
 By applying logistic regression, the project aims to classify employee attrition and interpret the factors influencing retention.
 
+Project is completed as art of IIITB course work. My contributions included EDA, Feature Engineering and Model evaluation.
 ---
 
 ## 🎯 Objectives
@@ -61,11 +62,25 @@ It includes employee demographics, job‑related features, and attrition status.
 
 ---
 
-## 📊 Expected Insights
-- **Job satisfaction, recognition, and work‑life balance** strongly influence retention.  
-- **Remote work and leadership opportunities** correlate with higher loyalty.  
-- **High overtime and long commute distances** increase attrition risk.  
-- **Income and promotions** play a role but are less predictive than satisfaction metrics.  
+## Actual Insights
+-- ➔ Sensitivity of the model turned out to be 0.89
+-- ➔ Specificity of the model turned out to be 0.52
+-- ➔ Precision of the model turned out to be 0.63
+-- ➔ Recall of the model turned out to be 0.89
+
+--CONFUSION MATRIX:
+<img width="275" height="46" alt="image" src="https://github.com/user-attachments/assets/a393900b-10e9-4a91-b1c7-47050017d6ed" />
+
+Analysis identified work-life balance, compensation, and career growth as the top three drivers of employee attrition. Based on these findings:
+•	Employees with low work-life balance scores were significantly more likely to leave — organizations should consider flexible work policies and workload audits for high-risk departments.
+•	Compensation dissatisfaction emerged as a strong attrition predictor — a structured salary benchmarking exercise every 6–12 months is recommended for roles flagged as high-risk.
+•	Employees with stagnant career progression (3+ years in same role, no promotion) showed elevated churn probability — introducing clear promotion timelines and mentorship programs can reduce this risk.
+•	The model can be used to proactively flag at-risk employees before they resign, enabling HR teams to intervene early with targeted retention measures.
+
+  --**ROC Curve**
+  <img width="597" height="457" alt="image" src="https://github.com/user-attachments/assets/1dc9479d-e200-409b-b31e-c638553be9d3" />
+--**PRECISION RECALL Curve**
+  <img width="576" height="447" alt="image" src="https://github.com/user-attachments/assets/59dd1a64-a41b-4ba1-affe-264d800e30b2" />
 
 ---
 
